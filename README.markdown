@@ -1,5 +1,7 @@
 # RailsCasts
 
+    This is a tweaked version of the RailsCasts site used for training purposes. Unless you have been specifically sent to this fork, you probably want [the official source](http://github.com/ryanb/railscasts-episodes)
+
 This is the source code for the [RailsCasts site](http://railscasts.com/). If you want the source code for the episodes, see the [railscasts-episodes](http://github.com/ryanb/railscasts-episodes) project.
 
 Please [let me know](http://railscasts.com/feedback) if you plan to use this app for your site.
