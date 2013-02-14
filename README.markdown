@@ -1,6 +1,6 @@
 # RailsCasts
 
-    This is a tweaked version of the RailsCasts site used for training purposes. Unless you have been specifically sent to this fork, you probably want [the official source](http://github.com/ryanb/railscasts-episodes)
+### This is a tweaked version of the RailsCasts site used for training purposes. Unless you have been specifically sent to this fork, you probably want [the official source](http://github.com/ryanb/railscasts-episodes)
 
 This is the source code for the [RailsCasts site](http://railscasts.com/). If you want the source code for the episodes, see the [railscasts-episodes](http://github.com/ryanb/railscasts-episodes) project.
 
@@ -11,7 +11,7 @@ Please [let me know](http://railscasts.com/feedback) if you plan to use this app
 
 ## Setup
 
-This is designed to run on Ruby 1.9.2 or higher. If you're using [RVM](http://rvm.beginrescueend.com/) it should automatically switch to 1.9.2 when entering the directory.
+This is designed to run on Ruby 1.9.2 or higher.
 
 Run `script/setup`. This will generate the config files, install gems, and migrate the database.
 
