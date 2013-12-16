@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem "rails", "3.0.10"
-gem "mysql2"
+gem "sqlite3"
 gem "redcarpet"
 gem "coderay"
 gem "thinking-sphinx", ">= 2.0.1", :require => "thinking_sphinx"
