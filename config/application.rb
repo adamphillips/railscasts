@@ -46,5 +46,10 @@ module Railscasts
     config.time_zone = 'Pacific Time (US & Canada)'
 
     config.autoload_paths += %W(#{Rails.root}/lib)
+
+    config.assets.enabled = true
+    config.assets.version = '1.0'
+
+    config.assets.prefix = '/asset-files'
   end
 end
