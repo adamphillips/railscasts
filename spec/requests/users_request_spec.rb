@@ -40,7 +40,14 @@ describe "Users request" do
 
   it "logs in unknown profile and creates user" do
     User.count.should be_zero
-    OmniAuth.config.add_mock(:github, "uid" => "54321")
+    OmniAuth.config.add_mock(:github,
+      "uid" => "54321",
+      "user_info" => {
+        "email" => 'foo@example.com',
+        "nickname" => 'foobar',
+        "name" => 'Foo Bar'
+      }
+    )
     visit login_path
     page.current_path.should eq("/")
     User.count.should eq(1)
